@@ -15,13 +15,13 @@ The goal of this project is to perform data analytics on Uber data using various
 4. Model the data into various tables (star schema).
 <img src="data_model.jpeg">
 
-5. Write Python scripts on Mage to:
+5. Write [Python scripts](https://github.com/Phylake1337/uber-data-pipeline-end2end/tree/main/mage-files) on Mage to:
 - Extract data from google cloud.
 - Transform, filter, and split the data into multiple tables.
 - Load the data into BigQuery schema.
 <img src="BigQuery_schema.png">
 
-6. Create a new analytics table to feed [Looker Dashbaord](https://lookerstudio.google.com/u/0/reporting/3692e76a-578f-4329-ba0c-a22e410b3f2b/page/j9pXD).
+6. Create a [new analytics table](https://github.com/Phylake1337/uber-data-pipeline-end2end/blob/main/analytics_query.sql) to feed [Looker Dashbaord](https://lookerstudio.google.com/u/0/reporting/3692e76a-578f-4329-ba0c-a22e410b3f2b/page/j9pXD).
 
 7. Set up [Looker Dashbaord](https://lookerstudio.google.com/u/0/reporting/3692e76a-578f-4329-ba0c-a22e410b3f2b/page/j9pXD) to visualize the data into different charts.
 
@@ -40,7 +40,7 @@ TLC Trip Record Data
 Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
 
 More info about the dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+1. [Website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+2. [Data Dictionary](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
 
 
